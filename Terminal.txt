@@ -1,0 +1,46 @@
+//pour vérifier la branche  sur laquelle on travaille
+
+git branch
+// pour voir toutes les branches locales et distantes
+
+git branch -a
+
+// créer une branche 
+
+git checkout -b nom_branche
+
+// pour mettre une branche distantes vers le GitHub local 
+
+git checkout nom_branche
+
+// pour mettre à jour tout notre projet 
+
+git pull 
+
+
+// pour verifier les modifs effectuer 
+
+git status
+
+//pour mettre les modifs sur GitHub 
+
+git commit -a -m "commentaires"  // le -a c'est le git add.
+
+git push 
+
+
+
+
+
+
+*****Envoyer une branche creer localement vers GitHub
+
+git checkout -b nom_branche
+
+git add nom_fichier_modifié
+
+git status
+
+git commit -m "commentaires"
+
+git push origin nom_branche_creer
